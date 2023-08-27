@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="login-form" action="POST">
+        <div class="form-title">LOGIN & REGISTER...</div>
+
+
+
+
+        <div class="form-input">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Your Name">
+        </div>
+
+        <div class="form-input">
+            <label for="name">Mobile No.</label>
+            <input type="text" id="name" placeholder="Enter Your Mobile No.">
+        </div>
+
+        <div class="form-input">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Enter Your Email">
+        </div>
+
+        <div class="form-input">
+            <label for="password">Password</label>
+            <input type="text" id="password" placeholder="Enter Your password">
+        </div>
+
+
+
+
+        <div id="captchaBackground">
+            <canvas id="captcha">captcha text</canvas>
+            <input id="textBox" type="text" name="text">
+            <div id="buttons">
+
+                <button id="refreshButton" type="submit">Refresh</button>
+            </div>
+            <span id="output"></span>
+        </div>
+
+        <div class="form-input">
+            <button id="signup-btn">Signup</button>
+
+        </div>
+
+
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
